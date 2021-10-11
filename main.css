@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(16, 101, 128);
+}
+
+
+.container {
+    width: 320px;
+    height: auto;
+    background-color: rgb(235, 230, 230);
+    margin: 20px;
+    /* padding: 5px 12px 5px 12px; */
+
+}
+
+.container .promosi {
+    background-color: rgb(251, 238, 232);
+    width: 100%;
+}
+
+.shopee-garansi {
+    padding: 5px 15px 5px 15px;
+}
+
+.shopee-murah-lebay {
+    padding: 5px 15px 5px 15px;
+}
+
+.shopee-garansi .ori-icon,
+.murah-lebay-icon {
+    float: left;
+    margin: 12px 10px 12px 0px;
+}
+
+.murah-lebay-icon {
+    position: relative;
+    bottom: 5px;
+}
+
+.ori-text,
+.lebay-text {
+    display: inline-block;
+    width: 230px;
+    padding: 0;
+}
+
+.lebay-text .murah-lebay-text {
+    color: rgb(238, 9, 9);
+}
+
+.ori-text .ori {
+    color: #fc9104;
+}
+
+.ori-text .garansi {
+    font-size: 13px;
+    color: rgb(139, 137, 137);
+    margin: 4px 4px 4px 0;
+}
+
+.lebay-text .termurah {
+    font-size: 13px;
+    color: rgb(139, 137, 137);
+    margin: 4px 4px 4px 0;
+}
+
+.shopee-garansi .next {
+    position: relative;
+    left: 5px;
+    bottom: 18px;
+}
+
+.shopee-murah-lebay .next {
+    position: relative;
+    left: 5px;
+    bottom: 10px;
+}
+
+/* bagian 2 */
+.info-product {
+    padding: 25px 15px 10px 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.rating {
+    position: relative;
+
+}
+
+.rating .stars {
+    display: inline-block;
+    /* margin-top: -3px; */
+}
+
+.stars .checked {
+    color: orange;
+}
+
+.rating .rating-number {
+    font-size: 15px;
+    padding-right: 10px;
+    border-right: 1px solid grey;
+    display: inline-block;
+    color: red;
+    padding-bottom: 0;
+}
+
+.rating .terjual {
+    display: inline-block;
+    font-size: 14px;
+    padding-left: 5px;
+    margin-left: 0;
+}
+
+.rating .heart {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 2px;
+}
+
+.jaminan {
+    background-color: #fff;
+    padding: 15px 15px 20px 15px;
+
+}
+
+.pengembalian {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pengembalian img {
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 3px;
+}
+
+.pengembalian p {
+    font-size: 11px;
+    color: rgb(189, 182, 182);
+    display: inline-block;
+}
+
+.ori-100 {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.ori-100 img {
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 3px;
+}
+
+.ori-100 p {
+    font-size: 11px;
+    color: rgb(189, 182, 182);
+    display: inline-block;
+}
+
+.gratis-ongkir {
+    display: inline-block;
+}
+
+.gratis-ongkir img {
+    display: inline-block;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+    top: 3px;
+}
+
+.gratis-ongkir p {
+    font-size: 11px;
+    color: rgb(189, 182, 182);
+    display: inline-block;
+}
+
+.voucher {
+    padding: 15px 20px 15px 20px;
+    background-color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.voucher p {
+    display: inline-block;
+}
+
+.voucher .voucher-toko {
+    font-size: 13px;
+}
+
+.voucher .cashback {
+    font-size: 12px;
+    padding: 2px 4px;
+    border-top: 1px solid rgb(240, 85, 85);
+    border-bottom: 1px solid rgb(240, 85, 85);
+    border-left: 1px solid rgb(240, 85, 85);
+    border-right: 1px solid rgb(240, 85, 85);
+}
+
+.voucher .cashback2 {
+    font-size: 12px;
+    padding: 2px 4px;
+    border-top: 1px solid rgb(240, 85, 85);
+    border-bottom: 1px solid rgb(240, 85, 85);
+    border-left: 1px solid rgb(240, 85, 85);
+    border-right: 1px solid rgb(240, 85, 85);
+}
+
+.voucher .next {
+    position: relative;
+    left: 6px;
+    top: 2px;
+}
+
+.cod {
+    padding: 5px 15px 5px 15px;
+    background-color: #fff;
+    border-bottom: 1px solid rgb(209, 209, 209);
+}
+
+.cod img {
+    display: inline-block;
+}
+
+.cod p {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+    color: rgb(32, 31, 31);
+}
+
+.ongkir {
+    padding: 15px;
+    background-color: #fff;
+}
+
+
+.gratis-ongkir-img {
+    display: inline-block;
+    margin-right: 3px;
+}
+
+.ongkir .gratis-ongkir2 {
+    font-size: 16px;
+    display: inline-block;
+    font-weight: 500;
+    margin: 5px;
+}
+
+.ongkir .biaya-ongkir {
+    font-size: 14px;
+    display: inline-block;
+    font-weight: 500;
+    margin: 7px;
+}
+
+.biaya-ongkir span {
+    font-weight: bold;
+}
+
+
+.ongkir .truck-icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    position: relative;
+    top: 3px
+}
